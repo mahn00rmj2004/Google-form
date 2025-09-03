@@ -1,5 +1,5 @@
 import React from "react";
-import { FiDownload, FiShare2, FiEye, FiUpload } from "react-icons/fi";
+import { FiDownload, FiShare2, FiUpload } from "react-icons/fi";
 import { HiOutlineClock, HiOutlineRefresh } from "react-icons/hi";
 
 export default function Navbar({ onPreviewClick }) {
@@ -74,6 +74,7 @@ export default function Navbar({ onPreviewClick }) {
       >
         Preview
       </button>
+
       </div>
     </div>
   );

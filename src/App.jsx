@@ -37,8 +37,12 @@ const App = () => {
         />
 
       )}
+      {/* Preview overlay */}
+      {showPreview && (
+        <EmployeeFeedback onClose={() => setShowPreview(false)} />
+      )}
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
